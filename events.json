@@ -61,5 +61,71 @@
       "updated_at": ""
     }
   },
-  "events": []
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "Downtown Farmers Market",
+      "description": {
+        "short": "Weekly outdoor farmers market featuring local vendors.",
+        "long": "Join us every Saturday morning at Riverside Plaza for the Downtown Farmers Market. Browse fresh produce, homemade goods, live music, and activities for kids. Over 40 local vendors participate each week."
+      },
+      "category": "Market",
+      "tags": ["food", "outdoor", "family", "weekly", "local vendors"],
+      "when": {
+        "date_start": "2025-06-07",
+        "date_end": "2025-06-07",
+        "time_start": "08:00",
+        "time_end": "13:00",
+        "timezone": "America/Chicago",
+        "recurrence": "weekly"
+      },
+      "where": {
+        "venue_name": "Riverside Plaza",
+        "address": {
+          "street": "100 Riverside Dr",
+          "city": "Springfield",
+          "state": "IL",
+          "zip": "62701"
+        },
+        "room": "",
+        "online_url": "",
+        "parking_info": "Free street parking available on Main St and Oak Ave."
+      },
+      "organizer": {
+        "name": "Jane Smith",
+        "organization": "Springfield Community Markets",
+        "email": "info@springfieldmarkets.org",
+        "phone": "217-555-0192"
+      },
+      "attendance": {
+        "cost": "Free",
+        "is_free": true,
+        "registration_required": false,
+        "registration_url": "",
+        "rsvp_deadline": "",
+        "capacity": null
+      },
+      "audience": {
+        "age_group": "All ages",
+        "accessibility": "Wheelchair accessible, paved paths throughout",
+        "languages": ["English", "Spanish"],
+        "dress_code": "Casual",
+        "requirements": "Bring reusable bags"
+      },
+      "media": {
+        "image_url": "https://example.com/images/farmers-market.jpg",
+        "website_url": "https://springfieldmarkets.org",
+        "social_links": [
+          "https://facebook.com/springfieldmarkets",
+          "https://instagram.com/springfieldmarkets"
+        ]
+      },
+      "meta": {
+        "status": "scheduled",
+        "source": "Springfield Community Markets",
+        "created_at": "2025-05-01T10:00:00Z",
+        "updated_at": "2025-05-01T10:00:00Z"
+      }
+    }
+  ]
 }
