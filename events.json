@@ -1,0 +1,65 @@
+{
+  "template": {
+    "id": "",
+    "title": "",
+    "description": {
+      "short": "",
+      "long": ""
+    },
+    "category": "",
+    "tags": [],
+    "when": {
+      "date_start": "",
+      "date_end": "",
+      "time_start": "",
+      "time_end": "",
+      "timezone": "",
+      "recurrence": ""
+    },
+    "where": {
+      "venue_name": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "room": "",
+      "online_url": "",
+      "parking_info": ""
+    },
+    "organizer": {
+      "name": "",
+      "organization": "",
+      "email": "",
+      "phone": ""
+    },
+    "attendance": {
+      "cost": "",
+      "is_free": true,
+      "registration_required": false,
+      "registration_url": "",
+      "rsvp_deadline": "",
+      "capacity": null
+    },
+    "audience": {
+      "age_group": "",
+      "accessibility": "",
+      "languages": [],
+      "dress_code": "",
+      "requirements": ""
+    },
+    "media": {
+      "image_url": "",
+      "website_url": "",
+      "social_links": []
+    },
+    "meta": {
+      "status": "scheduled",
+      "source": "",
+      "created_at": "",
+      "updated_at": ""
+    }
+  },
+  "events": []
+}
