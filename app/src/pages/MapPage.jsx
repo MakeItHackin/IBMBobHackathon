@@ -43,9 +43,14 @@ export default function MapPage() {
   const [showHeat, setShowHeat] = useState(true)
   const [showMarkers, setShowMarkers] = useState(true)
 
+  const maxAttendance = Math.max(...events.map(e => e.attendance?.expected_attendance || 1))
   const heatPoints = events
     .filter(e => e.where?.geo?.lat && e.where?.geo?.lng)
-    .map(e => [e.where.geo.lat, e.where.geo.lng, 1])
+    .map(e => [
+      e.where.geo.lat,
+      e.where.geo.lng,
+      (e.attendance?.expected_attendance || 1) / maxAttendance
+    ])
 
   return (
     <div className="flex flex-col h-[calc(100vh-120px)]">

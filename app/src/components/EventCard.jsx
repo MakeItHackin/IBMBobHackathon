@@ -48,6 +48,12 @@ export default function EventCard({ event }) {
             {attendance.is_free ? 'Free' : attendance.cost}
           </span>
         </div>
+        {attendance.expected_attendance && (
+          <div className="flex items-center gap-1">
+            <span>👥</span>
+            <span>~{attendance.expected_attendance.toLocaleString()} expected</span>
+          </div>
+        )}
       </div>
 
       {event.meta?.source && (
