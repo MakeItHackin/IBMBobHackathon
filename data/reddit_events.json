@@ -1,0 +1,340 @@
+{
+  "scraped_at": "2026-09-18T00:06:43.549Z",
+  "events": [
+    {
+      "id": "reddit-Huntsville-_1w0wddu",
+      "title": "I built a free game where you fly a rocket over the real Huntsville — and mapped every Flock camera in town into it",
+      "description": {
+        "short": "I&#39;ve been building this for a while and finally put it online: rocketcity.cc — it&#39;s a browser game (free, no install, works on desktop or phone) where you fly a little cartoon Saturn V over an",
+        "long": "I&#39;ve been building this for a while and finally put it online: rocketcity.cc — it&#39;s a browser game (free, no install, works on desktop or phone) where you fly a little cartoon Saturn V over an actual 3D scan of Huntsville and Madison. You can buzz the real Saturn V at the Space &amp; Rocket Center, cruise Big Spring Park, land on Toyota Field, fly through Five Points. The part I think you&#39;ll find interesting: I pulled in the DeFlock dataset and put all 262 mapped Flock license‑plate cameras into the game as red beacons. There&#39;s a &quot;Find the Flock&quot; mode — fly around your own neighborhood and see how many are near you. Genuinely surprised me how many there are once you can see them. Other stuff to do: hunt down the golf courses, race a time‑trial through downtown, jack a car GTA‑style, find hidden fuel cells. More local missions dropping weekly. A few honest notes: it&#39;s built on Google&#39;s 3D map imagery, so at street level it looks a little melty (that&#39;s aerial photogrammetry, not my code) — it looks best from the air, which is the point. And to be clear, it only shows what&#39;s already public in Google Earth; I fenced off Redstone Arsenal airspace on purpose. I&#39;m a local and made this solo — would love feedback on what Huntsville spots or missions you&#39;d want added. Roast it, break it, tell me what&#39;s missing. &#32; submitted by &#32; /u/robafett72 [link] &#32; [comments]"
+      },
+      "category": "Fitness",
+      "tags": [
+        "race",
+        "neighborhood",
+        "game",
+        "free"
+      ],
+      "when": {
+        "date_start": "",
+        "date_end": "",
+        "time_start": "",
+        "time_end": "",
+        "timezone": "America/Chicago",
+        "recurrence": ""
+      },
+      "where": {
+        "venue_name": "",
+        "address": {
+          "street": "",
+          "city": "Huntsville",
+          "state": "AL",
+          "zip": ""
+        },
+        "room": "",
+        "online_url": "",
+        "parking_info": ""
+      },
+      "organizer": {
+        "name": "/u/robafett72",
+        "organization": "",
+        "email": "",
+        "phone": ""
+      },
+      "attendance": {
+        "cost": "Free",
+        "is_free": true,
+        "registration_required": false,
+        "registration_url": "",
+        "rsvp_deadline": "",
+        "capacity": null
+      },
+      "audience": {
+        "age_group": "",
+        "accessibility": "",
+        "languages": [
+          "English"
+        ],
+        "dress_code": "",
+        "requirements": ""
+      },
+      "media": {
+        "image_url": "",
+        "website_url": "https://reddit.com/r/Huntsville/comments/1w0wddu/i_built_a_free_game_where_you_fly_a_rocket_over/",
+        "social_links": []
+      },
+      "meta": {
+        "status": "scheduled",
+        "source": "reddit/r/Huntsville",
+        "created_at": "2026-08-28T17:05:57.000Z",
+        "updated_at": "2026-09-18T00:06:21.748Z"
+      }
+    },
+    {
+      "id": "reddit-Huntsville-_1v2u86f",
+      "title": "Creed Huntsville, AL 2026",
+      "description": {
+        "short": "Anyone going to the Creed show in Huntsville, AL tomorrow that has VIP passes? &#32; submitted by &#32; /u/jcdevoe26 [link] &#32; [comments]",
+        "long": "Anyone going to the Creed show in Huntsville, AL tomorrow that has VIP passes? &#32; submitted by &#32; /u/jcdevoe26 [link] &#32; [comments]"
+      },
+      "category": "General",
+      "tags": [],
+      "when": {
+        "date_start": "",
+        "date_end": "",
+        "time_start": "",
+        "time_end": "",
+        "timezone": "America/Chicago",
+        "recurrence": ""
+      },
+      "where": {
+        "venue_name": "",
+        "address": {
+          "street": "",
+          "city": "Huntsville",
+          "state": "AL",
+          "zip": ""
+        },
+        "room": "",
+        "online_url": "",
+        "parking_info": ""
+      },
+      "organizer": {
+        "name": "/u/jcdevoe26",
+        "organization": "",
+        "email": "",
+        "phone": ""
+      },
+      "attendance": {
+        "cost": "",
+        "is_free": false,
+        "registration_required": false,
+        "registration_url": "",
+        "rsvp_deadline": "",
+        "capacity": null
+      },
+      "audience": {
+        "age_group": "",
+        "accessibility": "",
+        "languages": [
+          "English"
+        ],
+        "dress_code": "",
+        "requirements": ""
+      },
+      "media": {
+        "image_url": "",
+        "website_url": "https://reddit.com/r/Huntsville/comments/1v2u86f/creed_huntsville_al_2026/",
+        "social_links": []
+      },
+      "meta": {
+        "status": "scheduled",
+        "source": "reddit/r/Huntsville",
+        "created_at": "2026-07-21T20:27:07.000Z",
+        "updated_at": "2026-09-18T00:06:21.750Z"
+      }
+    },
+    {
+      "id": "reddit-Huntsville-_1ulmezp",
+      "title": "Hi all! I was researching for a friend daycare in Huntsville. They were looking at Grace Lutheran. And I guess I just wanted to research and thought, maybe I can ask you fine folk if you have any opinions on this place or advice on others? Thanks so much! And wow, Daycare be a lot of moola yall!",
+      "description": {
+        "short": "&#32; submitted by &#32; /u/joelies65xx [link] &#32; [comments]",
+        "long": "&#32; submitted by &#32; /u/joelies65xx [link] &#32; [comments]"
+      },
+      "category": "Fitness",
+      "tags": [
+        "race"
+      ],
+      "when": {
+        "date_start": "",
+        "date_end": "",
+        "time_start": "",
+        "time_end": "",
+        "timezone": "America/Chicago",
+        "recurrence": ""
+      },
+      "where": {
+        "venue_name": "",
+        "address": {
+          "street": "",
+          "city": "Huntsville",
+          "state": "AL",
+          "zip": ""
+        },
+        "room": "",
+        "online_url": "",
+        "parking_info": ""
+      },
+      "organizer": {
+        "name": "/u/joelies65xx",
+        "organization": "",
+        "email": "",
+        "phone": ""
+      },
+      "attendance": {
+        "cost": "",
+        "is_free": false,
+        "registration_required": false,
+        "registration_url": "",
+        "rsvp_deadline": "",
+        "capacity": null
+      },
+      "audience": {
+        "age_group": "",
+        "accessibility": "",
+        "languages": [
+          "English"
+        ],
+        "dress_code": "",
+        "requirements": ""
+      },
+      "media": {
+        "image_url": "",
+        "website_url": "https://reddit.com/r/Huntsville/comments/1ulmezp/hi_all_i_was_researching_for_a_friend_daycare_in/",
+        "social_links": []
+      },
+      "meta": {
+        "status": "scheduled",
+        "source": "reddit/r/Huntsville",
+        "created_at": "2026-07-02T16:05:10.000Z",
+        "updated_at": "2026-09-18T00:06:21.750Z"
+      }
+    },
+    {
+      "id": "reddit-Huntsville-_1ujxhoy",
+      "title": "Hey Yall I'm a full time (not famous) comedian coming to town to film a special at the end of July. Was wondering if anyone had any tips/connections to get the word out. I'm fully DIY by choice and have spent the last 13 years zig zagging the country headlining shows in 37 states (and Canada!). AMA.",
+      "description": {
+        "short": "Here&#39;s my bio, sorry it&#39;s in the third person: Dan Alten is a charming goofball from Kentucky who has been traveling the country for the past decade doing about 200 shows a year bringing his i",
+        "long": "Here&#39;s my bio, sorry it&#39;s in the third person: Dan Alten is a charming goofball from Kentucky who has been traveling the country for the past decade doing about 200 shows a year bringing his intelligently surreal bebop nonsense everywhere from theaters to punk basements to art galleries to beloved comedy clubs with a knack for making audiences feel like they&#39;re on a good psychedelic trip without the drugs. Like if the Ramones were one guy with a mustache and good jokes. Iggy Pop with puns. Clever chaos. Like Jimi Hendrix lighting fire to a Tik Tok reel live on stage. He has opened for Kyle Kinane, Bobcat, Sam Tallent, Rory Scovel, Sarah Sherman from SNL, Johnny Pemberton, Hari Kondabolu, rapper Open Mike Eagle, DJ Doug Pound &amp; David Leibe Hart from Tim &amp; Eric, various punk bands with silly names, and a guy at an open mic who tried to throw his father’s ashes into the crowd. He has recorded 2 albums, written a zine, and filmed a pilot for an Amazon Prime stand up show that was lost to history. But most importantly he’s very funny and unique. You will enjoy him. And if not you can mud wrestle him after the show. &#32; submitted by &#32; /u/danalten [link] &#32; [comments]"
+      },
+      "category": "Music",
+      "tags": [
+        "band",
+        "open mic",
+        "dj",
+        "theater",
+        "film",
+        "comedy",
+        "club"
+      ],
+      "when": {
+        "date_start": "",
+        "date_end": "",
+        "time_start": "",
+        "time_end": "",
+        "timezone": "America/Chicago",
+        "recurrence": ""
+      },
+      "where": {
+        "venue_name": "",
+        "address": {
+          "street": "",
+          "city": "Huntsville",
+          "state": "AL",
+          "zip": ""
+        },
+        "room": "",
+        "online_url": "",
+        "parking_info": ""
+      },
+      "organizer": {
+        "name": "/u/danalten",
+        "organization": "",
+        "email": "",
+        "phone": ""
+      },
+      "attendance": {
+        "cost": "",
+        "is_free": false,
+        "registration_required": false,
+        "registration_url": "",
+        "rsvp_deadline": "",
+        "capacity": null
+      },
+      "audience": {
+        "age_group": "",
+        "accessibility": "",
+        "languages": [
+          "English"
+        ],
+        "dress_code": "",
+        "requirements": ""
+      },
+      "media": {
+        "image_url": "",
+        "website_url": "https://reddit.com/r/Huntsville/comments/1ujxhoy/hey_yall_im_a_full_time_not_famous_comedian/",
+        "social_links": []
+      },
+      "meta": {
+        "status": "scheduled",
+        "source": "reddit/r/Huntsville",
+        "created_at": "2026-06-30T18:34:14.000Z",
+        "updated_at": "2026-09-18T00:06:21.750Z"
+      }
+    },
+    {
+      "id": "reddit-Huntsville-_1p2fdl4",
+      "title": "Huntsville police checkpoints this weekend",
+      "description": {
+        "short": "&#32; submitted by &#32; /u/OutToDrift [link] &#32; [comments]",
+        "long": "&#32; submitted by &#32; /u/OutToDrift [link] &#32; [comments]"
+      },
+      "category": "General",
+      "tags": [],
+      "when": {
+        "date_start": "2026-09-19",
+        "date_end": "",
+        "time_start": "",
+        "time_end": "",
+        "timezone": "America/Chicago",
+        "recurrence": ""
+      },
+      "where": {
+        "venue_name": "",
+        "address": {
+          "street": "",
+          "city": "Huntsville",
+          "state": "AL",
+          "zip": ""
+        },
+        "room": "",
+        "online_url": "",
+        "parking_info": ""
+      },
+      "organizer": {
+        "name": "/u/OutToDrift",
+        "organization": "",
+        "email": "",
+        "phone": ""
+      },
+      "attendance": {
+        "cost": "",
+        "is_free": false,
+        "registration_required": false,
+        "registration_url": "",
+        "rsvp_deadline": "",
+        "capacity": null
+      },
+      "audience": {
+        "age_group": "",
+        "accessibility": "",
+        "languages": [
+          "English"
+        ],
+        "dress_code": "",
+        "requirements": ""
+      },
+      "media": {
+        "image_url": "",
+        "website_url": "https://reddit.com/r/Huntsville/comments/1p2fdl4/huntsville_police_checkpoints_this_weekend/",
+        "social_links": []
+      },
+      "meta": {
+        "status": "scheduled",
+        "source": "reddit/r/Huntsville",
+        "created_at": "2025-11-20T21:16:26.000Z",
+        "updated_at": "2026-09-18T00:06:21.751Z"
+      }
+    }
+  ]
+}

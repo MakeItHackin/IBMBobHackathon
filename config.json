@@ -1,0 +1,21 @@
+{
+  "city": "Huntsville",
+  "state": "AL",
+  "timezone": "America/Chicago",
+  "reddit": {
+    "subreddits": [
+      "Huntsville",
+      "HuntsvilleAlabama",
+      "Alabama"
+    ],
+    "searchTerms": [
+      "event", "events", "festival", "concert", "show", "meetup",
+      "market", "fair", "expo", "workshop", "class", "trivia",
+      "open mic", "art walk", "food truck", "5k", "race", "charity",
+      "fundraiser", "community", "free", "tonight", "this weekend",
+      "next weekend", "this week"
+    ],
+    "maxPostsPerSubreddit": 100,
+    "lookAheadDays": 60
+  }
+}
