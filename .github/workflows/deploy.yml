@@ -29,6 +29,7 @@ jobs:
       - name: Run scrapers → update app/public/events.json
         run: npm run scrape
         working-directory: .
+        continue-on-error: true   # scrape failure must never block a deploy
 
       - name: Install app dependencies
         run: npm ci
