@@ -17,7 +17,7 @@ function HeatmapLayer({ points }) {
   const heatRef = useRef(null)
 
   useEffect(() => {
-    if (!map) return
+    if (!map || !points.length) return
     import('leaflet.heat').then(() => {
       if (heatRef.current) {
         map.removeLayer(heatRef.current)
@@ -30,7 +30,10 @@ function HeatmapLayer({ points }) {
       }).addTo(map)
     })
     return () => {
-      if (heatRef.current) map.removeLayer(heatRef.current)
+      if (heatRef.current) {
+        map.removeLayer(heatRef.current)
+        heatRef.current = null
+      }
     }
   }, [map, points])
 
@@ -42,19 +45,26 @@ export default function MapPage() {
   const [showHeat, setShowHeat] = useState(true)
   const [showMarkers, setShowMarkers] = useState(true)
 
-  const maxAttendance = Math.max(...events.map(e => e.attendance?.expected_attendance || 1))
-  const heatPoints = events
-    .filter(e => e.where?.geo?.lat && e.where?.geo?.lng)
-    .map(e => [
-      e.where.geo.lat,
-      e.where.geo.lng,
-      (e.attendance?.expected_attendance || 1) / maxAttendance
-    ])
+  // Only events that have real geo coordinates
+  const geoEvents = events.filter(e => e.where?.geo?.lat && e.where?.geo?.lng)
+
+  // Safe max — guard against empty array
+  const attendanceValues = geoEvents.map(e => e.attendance?.expected_attendance || 0).filter(v => v > 0)
+  const maxAttendance = attendanceValues.length > 0 ? Math.max(...attendanceValues) : 1
+
+  const heatPoints = geoEvents.map(e => [
+    e.where.geo.lat,
+    e.where.geo.lng,
+    Math.max((e.attendance?.expected_attendance || 1) / maxAttendance, 0.05),
+  ])
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 120px)' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100%', minHeight: 0 }}>
       {/* Controls bar */}
-      <div className="bg-white border-b border-gray-200 px-4 py-2 flex gap-6 items-center text-sm" style={{ flexShrink: 0 }}>
+      <div
+        className="bg-white border-b border-gray-200 px-4 py-2 flex gap-6 items-center text-sm"
+        style={{ flexShrink: 0 }}
+      >
         <span className="font-medium text-gray-700">Map View</span>
         <label className="flex items-center gap-2 cursor-pointer text-gray-600">
           <input
@@ -75,18 +85,23 @@ export default function MapPage() {
           Markers
         </label>
         {loading && <span className="text-gray-400 ml-auto">Loading…</span>}
-        {!loading && <span className="text-gray-400 ml-auto">{events.length} events plotted</span>}
+        {!loading && (
+          <span className="text-gray-400 ml-auto">
+            {geoEvents.length} of {events.length} events plotted
+          </span>
+        )}
       </div>
 
-      {/* Map */}
-      <div style={{ flex: 1, minHeight: 0 }}>
+      {/* Map — takes all remaining height */}
+      <div style={{ flex: 1, minHeight: 0, position: 'relative' }}>
         <MapContainer
           center={[34.7304, -86.5861]}
           zoom={12}
           style={{ height: '100%', width: '100%' }}
+          scrollWheelZoom={true}
         >
           <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
@@ -94,25 +109,30 @@ export default function MapPage() {
             <HeatmapLayer points={heatPoints} />
           )}
 
-          {showMarkers && events
-            .filter(e => e.where?.geo?.lat && e.where?.geo?.lng)
-            .map(event => (
-              <Marker
-                key={event.id}
-                position={[event.where.geo.lat, event.where.geo.lng]}
-              >
-                <Popup>
-                  <div className="text-sm">
-                    <div className="font-semibold mb-1">{event.title}</div>
-                    <div className="text-gray-500 mb-1">{event.where.venue_name}</div>
-                    <div className="text-gray-500">{event.when.date_start} · {event.when.time_start}</div>
-                    <div className={`mt-1 font-medium ${event.attendance.is_free ? 'text-green-600' : 'text-gray-700'}`}>
-                      {event.attendance.is_free ? 'Free' : event.attendance.cost}
-                    </div>
+          {showMarkers && geoEvents.map(event => (
+            <Marker
+              key={event.id}
+              position={[event.where.geo.lat, event.where.geo.lng]}
+            >
+              <Popup>
+                <div style={{ fontSize: 13, minWidth: 180 }}>
+                  <div style={{ fontWeight: 600, marginBottom: 4 }}>{event.title}</div>
+                  <div style={{ color: '#666', marginBottom: 2 }}>{event.where.venue_name}</div>
+                  <div style={{ color: '#666', marginBottom: 4 }}>
+                    {event.when.date_start}{event.when.time_start ? ' · ' + event.when.time_start : ''}
                   </div>
-                </Popup>
-              </Marker>
-            ))}
+                  <div style={{ fontWeight: 500, color: event.attendance.is_free ? '#16a34a' : '#374151' }}>
+                    {event.attendance.is_free ? 'Free' : event.attendance.cost}
+                  </div>
+                  {event.attendance.expected_attendance && (
+                    <div style={{ color: '#888', marginTop: 2 }}>
+                      ~{event.attendance.expected_attendance.toLocaleString()} expected
+                    </div>
+                  )}
+                </div>
+              </Popup>
+            </Marker>
+          ))}
         </MapContainer>
       </div>
     </div>

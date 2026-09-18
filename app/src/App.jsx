@@ -5,8 +5,8 @@ import MapPage from './pages/MapPage'
 export default function App() {
   return (
     <BrowserRouter basename="/IBMBobHackathon/">
-      <div className="min-h-screen bg-gray-50 flex flex-col">
-        <header className="bg-indigo-700 text-white shadow">
+      <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+        <header className="bg-indigo-700 text-white shadow" style={{ flexShrink: 0 }}>
           <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
             <span className="text-xl font-bold tracking-tight">🚀 Rocket City Events</span>
             <nav className="flex gap-6 text-sm font-medium">
@@ -31,16 +31,12 @@ export default function App() {
           </div>
         </header>
 
-        <main className="flex-1">
+        <main style={{ flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column' }}>
           <Routes>
             <Route path="/" element={<EventsPage />} />
             <Route path="/map" element={<MapPage />} />
           </Routes>
         </main>
-
-        <footer className="text-center text-xs text-gray-400 py-4 border-t border-gray-200">
-          Rocket City Events — Huntsville, AL
-        </footer>
       </div>
     </BrowserRouter>
   )
