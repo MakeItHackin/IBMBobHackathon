@@ -1,0 +1,1403 @@
+﻿{
+    "template":  {
+                     "id":  "",
+                     "title":  "",
+                     "description":  {
+                                         "short":  "",
+                                         "long":  ""
+                                     },
+                     "category":  "",
+                     "tags":  [
+
+                              ],
+                     "when":  {
+                                  "date_start":  "",
+                                  "date_end":  "",
+                                  "time_start":  "",
+                                  "time_end":  "",
+                                  "timezone":  "",
+                                  "recurrence":  ""
+                              },
+                     "where":  {
+                                   "venue_name":  "",
+                                   "address":  {
+                                                   "street":  "",
+                                                   "city":  "",
+                                                   "state":  "",
+                                                   "zip":  ""
+                                               },
+                                   "room":  "",
+                                   "online_url":  "",
+                                   "parking_info":  "",
+                                   "geo":  {
+                                               "lat":  null,
+                                               "lng":  null
+                                           }
+                               },
+                     "organizer":  {
+                                       "name":  "",
+                                       "organization":  "",
+                                       "email":  "",
+                                       "phone":  ""
+                                   },
+                     "attendance":  {
+                                        "cost":  "",
+                                        "is_free":  true,
+                                        "registration_required":  false,
+                                        "registration_url":  "",
+                                        "rsvp_deadline":  "",
+                                        "capacity":  null
+                                    },
+                     "audience":  {
+                                      "age_group":  "",
+                                      "accessibility":  "",
+                                      "languages":  [
+
+                                                    ],
+                                      "dress_code":  "",
+                                      "requirements":  ""
+                                  },
+                     "media":  {
+                                   "image_url":  "",
+                                   "website_url":  "",
+                                   "social_links":  [
+
+                                                    ]
+                               },
+                     "meta":  {
+                                  "status":  "scheduled",
+                                  "source":  "",
+                                  "created_at":  "",
+                                  "updated_at":  ""
+                              }
+                 },
+    "events":  [
+                   {
+                       "id":  "evt-001",
+                       "title":  "Downtown Farmers Market",
+                       "description":  {
+                                           "short":  "Weekly outdoor farmers market featuring local vendors.",
+                                           "long":  "Join us every Saturday morning at Riverside Plaza for the Downtown Farmers Market. Browse fresh produce, homemade goods, live music, and activities for kids. Over 40 local vendors participate each week."
+                                       },
+                       "category":  "Market",
+                       "tags":  [
+                                    "food",
+                                    "outdoor",
+                                    "family",
+                                    "weekly",
+                                    "local vendors"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-07",
+                                    "date_end":  "2025-06-07",
+                                    "time_start":  "08:00",
+                                    "time_end":  "13:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "weekly"
+                                },
+                       "where":  {
+                                     "venue_name":  "Riverside Plaza",
+                                     "address":  {
+                                                     "street":  "100 Riverside Dr",
+                                                     "city":  "Springfield",
+                                                     "state":  "IL",
+                                                     "zip":  "62701"
+                                                 },
+                                     "room":  "",
+                                     "online_url":  "",
+                                     "parking_info":  "Free street parking available on Main St and Oak Ave.",
+                                     "geo":  {
+                                                 "lat":  34.7304,
+                                                 "lng":  -86.5861
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Jane Smith",
+                                         "organization":  "Springfield Community Markets",
+                                         "email":  "info@springfieldmarkets.org",
+                                         "phone":  "217-555-0192"
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free",
+                                          "is_free":  true,
+                                          "registration_required":  false,
+                                          "registration_url":  "",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  null
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Wheelchair accessible, paved paths throughout",
+                                        "languages":  [
+                                                          "English",
+                                                          "Spanish"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Bring reusable bags"
+                                    },
+                       "media":  {
+                                     "image_url":  "https://example.com/images/farmers-market.jpg",
+                                     "website_url":  "https://springfieldmarkets.org",
+                                     "social_links":  [
+                                                          "https://facebook.com/springfieldmarkets",
+                                                          "https://instagram.com/springfieldmarkets"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "Springfield Community Markets",
+                                    "created_at":  "2025-05-01T10:00:00Z",
+                                    "updated_at":  "2025-05-01T10:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-002",
+                       "title":  "Huntsville Food Truck Friday",
+                       "description":  {
+                                           "short":  "Monthly food truck gathering at Lowe Mill featuring 20+ trucks and live music.",
+                                           "long":  "Every first Friday of the month, Lowe Mill ARTS \u0026 Entertainment hosts Food Truck Friday. Over 20 local and regional food trucks line up alongside live music on the outdoor stage. Family-friendly, dog-friendly, and free to attend â€” just bring your appetite and cash for the trucks."
+                                       },
+                       "category":  "Food \u0026 Drink",
+                       "tags":  [
+                                    "food trucks",
+                                    "live music",
+                                    "outdoor",
+                                    "family",
+                                    "monthly",
+                                    "lowe mill"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-06",
+                                    "date_end":  "2025-06-06",
+                                    "time_start":  "17:00",
+                                    "time_end":  "21:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "monthly"
+                                },
+                       "where":  {
+                                     "venue_name":  "Lowe Mill ARTS \u0026 Entertainment",
+                                     "address":  {
+                                                     "street":  "2211 Seminole Dr SW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35805"
+                                                 },
+                                     "room":  "Outdoor grounds",
+                                     "online_url":  "",
+                                     "parking_info":  "Free parking in the Lowe Mill lot and along Seminole Dr.",
+                                     "geo":  {
+                                                 "lat":  34.7138,
+                                                 "lng":  -86.6019
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Lowe Mill Events Team",
+                                         "organization":  "Lowe Mill ARTS \u0026 Entertainment",
+                                         "email":  "events@lowemill.net",
+                                         "phone":  "256-533-0399"
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free admission",
+                                          "is_free":  true,
+                                          "registration_required":  false,
+                                          "registration_url":  "",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  null
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Partially accessible, some uneven outdoor surfaces",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Cash or card for food purchases"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://lowemill.net",
+                                     "social_links":  [
+                                                          "https://facebook.com/LoweMill"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "facebook",
+                                    "created_at":  "2025-05-10T09:00:00Z",
+                                    "updated_at":  "2025-05-10T09:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-003",
+                       "title":  "Huntsville Astronomy Club Monthly Stargazing Night",
+                       "description":  {
+                                           "short":  "Free public stargazing event hosted by the Von Braun Astronomical Society.",
+                                           "long":  "The Von Braun Astronomical Society hosts free public stargazing nights at the Burritt on the Mountain observatory. Bring the family and peer through telescopes operated by club members. Topics this month include Saturn\u0027s rings and deep-sky objects in the summer sky. No experience needed."
+                                       },
+                       "category":  "Science \u0026 Education",
+                       "tags":  [
+                                    "astronomy",
+                                    "stargazing",
+                                    "science",
+                                    "family",
+                                    "free",
+                                    "space"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-14",
+                                    "date_end":  "2025-06-14",
+                                    "time_start":  "20:00",
+                                    "time_end":  "23:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "monthly"
+                                },
+                       "where":  {
+                                     "venue_name":  "Burritt on the Mountain",
+                                     "address":  {
+                                                     "street":  "3101 Burritt Dr NE",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "Observatory deck",
+                                     "online_url":  "",
+                                     "parking_info":  "Free parking on site. Drive up the mountain road to the main lot.",
+                                     "geo":  {
+                                                 "lat":  34.7448,
+                                                 "lng":  -86.5455
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "VBAS Outreach Coordinator",
+                                         "organization":  "Von Braun Astronomical Society",
+                                         "email":  "info@vbas.org",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free",
+                                          "is_free":  true,
+                                          "registration_required":  false,
+                                          "registration_url":  "",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  80
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Limited accessibility on mountain terrain",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual, dress for the weather",
+                                        "requirements":  "Red flashlight recommended, no white lights near telescopes"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://vbas.org",
+                                     "social_links":  [
+                                                          "https://reddit.com/r/Huntsville"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "reddit",
+                                    "created_at":  "2025-05-12T14:00:00Z",
+                                    "updated_at":  "2025-05-12T14:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-004",
+                       "title":  "Rocket City 5K Run \u0026 Walk",
+                       "description":  {
+                                           "short":  "Annual 5K run and walk through downtown Huntsville benefiting local youth programs.",
+                                           "long":  "Lace up your shoes for the Rocket City 5K! This annual event winds through the heart of downtown Huntsville past landmarks like Big Spring Park and the U.S. Space \u0026 Rocket Center. All proceeds benefit Huntsville youth athletic programs. Medals for top finishers in each age group. Post-race celebration with food and music."
+                                       },
+                       "category":  "Sports \u0026 Fitness",
+                       "tags":  [
+                                    "5k",
+                                    "running",
+                                    "charity",
+                                    "downtown",
+                                    "fitness",
+                                    "outdoor"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-21",
+                                    "date_end":  "2025-06-21",
+                                    "time_start":  "07:30",
+                                    "time_end":  "11:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Big Spring International Park",
+                                     "address":  {
+                                                     "street":  "200 Church St NW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "",
+                                     "online_url":  "",
+                                     "parking_info":  "Parking decks available on Clinton Ave and Holmes Ave. Arrive early.",
+                                     "geo":  {
+                                                 "lat":  34.7298,
+                                                 "lng":  -86.5861
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Race Director",
+                                         "organization":  "Rocket City Road Runners",
+                                         "email":  "race@rocketcityroadrunners.org",
+                                         "phone":  "256-555-0147"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$30 early bird / $40 day-of",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/rocket-city-5k",
+                                          "rsvp_deadline":  "2025-06-19",
+                                          "capacity":  500
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Paved route, wheelchair participants welcome",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Athletic wear",
+                                        "requirements":  "Registered participants only. Bib pickup day-of starting at 6:30am."
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://rocketcityroadrunners.org",
+                                     "social_links":  [
+                                                          "https://www.eventbrite.com/e/rocket-city-5k",
+                                                          "https://facebook.com/rocketcityroadrunners"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "eventbrite",
+                                    "created_at":  "2025-04-15T08:00:00Z",
+                                    "updated_at":  "2025-05-20T08:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-005",
+                       "title":  "Huntsville Python \u0026 Data Science Meetup",
+                       "description":  {
+                                           "short":  "Monthly meetup for Python developers and data science enthusiasts in the Tennessee Valley.",
+                                           "long":  "The Huntsville Python \u0026 Data Science Meetup brings together developers, analysts, students, and hobbyists to share projects, learn new tools, and network. This month\u0027s talk: \u0027Intro to LLM APIs with Python\u0027 by a local engineer from Redstone Arsenal\u0027s tech community. Pizza provided. All skill levels welcome."
+                                       },
+                       "category":  "Technology",
+                       "tags":  [
+                                    "python",
+                                    "data science",
+                                    "programming",
+                                    "tech",
+                                    "networking",
+                                    "meetup"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-18",
+                                    "date_end":  "2025-06-18",
+                                    "time_start":  "18:30",
+                                    "time_end":  "20:30",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "monthly"
+                                },
+                       "where":  {
+                                     "venue_name":  "Huntsville Hatch",
+                                     "address":  {
+                                                     "street":  "315 Franklin St SE",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "Main coworking space",
+                                     "online_url":  "https://zoom.us/j/example",
+                                     "parking_info":  "Free street parking on Franklin St after 6pm.",
+                                     "geo":  {
+                                                 "lat":  34.7261,
+                                                 "lng":  -86.5835
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Chris Patel",
+                                         "organization":  "Huntsville Tech Community",
+                                         "email":  "organizer@huntsvillepython.org",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free",
+                                          "is_free":  true,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.meetup.com/huntsville-python",
+                                          "rsvp_deadline":  "2025-06-17",
+                                          "capacity":  60
+                                      },
+                       "audience":  {
+                                        "age_group":  "Adults",
+                                        "accessibility":  "Fully accessible building with elevator",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Laptop optional but encouraged"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://www.meetup.com/huntsville-python",
+                                     "social_links":  [
+                                                          "https://www.meetup.com/huntsville-python",
+                                                          "https://twitter.com/hsvpython"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "meetup",
+                                    "created_at":  "2025-05-18T10:00:00Z",
+                                    "updated_at":  "2025-05-18T10:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-006",
+                       "title":  "Panoply Arts Festival",
+                       "description":  {
+                                           "short":  "Three-day outdoor arts festival at Big Spring Park featuring 100+ artists, live performances, and hands-on activities.",
+                                           "long":  "Panoply Arts Festival is Huntsville\u0027s premier outdoor arts celebration, held annually at Big Spring International Park. Over 100 juried artists display and sell original work across all media â€” painting, sculpture, photography, ceramics, and more. Live music on two stages, dance performances, food vendors, and a children\u0027s art activity area make this a beloved community tradition."
+                                       },
+                       "category":  "Arts \u0026 Culture",
+                       "tags":  [
+                                    "arts",
+                                    "festival",
+                                    "outdoor",
+                                    "music",
+                                    "family",
+                                    "annual",
+                                    "big spring park"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-27",
+                                    "date_end":  "2025-06-29",
+                                    "time_start":  "10:00",
+                                    "time_end":  "18:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Big Spring International Park",
+                                     "address":  {
+                                                     "street":  "200 Church St NW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "",
+                                     "online_url":  "",
+                                     "parking_info":  "Paid parking in downtown decks. Shuttle service from Huntsville Botanical Garden on Saturday.",
+                                     "geo":  {
+                                                 "lat":  34.7298,
+                                                 "lng":  -86.5861
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Festival Director",
+                                         "organization":  "Arts Huntsville",
+                                         "email":  "info@artshuntsville.org",
+                                         "phone":  "256-519-2787"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$10/day or $20 weekend pass; children under 12 free",
+                                          "is_free":  false,
+                                          "registration_required":  false,
+                                          "registration_url":  "",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  null
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Paved paths, wheelchair accessible throughout",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Tickets available at the gate or online"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://artshuntsville.org/panoply",
+                                     "social_links":  [
+                                                          "https://facebook.com/PanoplyArtsFestival",
+                                                          "https://instagram.com/panoplyarts"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "facebook",
+                                    "created_at":  "2025-03-01T09:00:00Z",
+                                    "updated_at":  "2025-05-15T09:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-007",
+                       "title":  "Huntsville Maker Faire",
+                       "description":  {
+                                           "short":  "Annual celebration of making, tinkering, and DIY innovation at the U.S. Space \u0026 Rocket Center.",
+                                           "long":  "Huntsville Maker Faire brings together makers, hackers, crafters, engineers, and inventors for a full day of demos, workshops, and hands-on fun at the U.S. Space \u0026 Rocket Center. Exhibits range from robotics and 3D printing to textile art and amateur radio. A must-attend for curious minds of all ages in the Rocket City."
+                                       },
+                       "category":  "Technology \u0026 DIY",
+                       "tags":  [
+                                    "maker",
+                                    "DIY",
+                                    "robotics",
+                                    "STEM",
+                                    "innovation",
+                                    "hands-on",
+                                    "family"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-07-12",
+                                    "date_end":  "2025-07-12",
+                                    "time_start":  "10:00",
+                                    "time_end":  "17:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "U.S. Space \u0026 Rocket Center",
+                                     "address":  {
+                                                     "street":  "1 Tranquility Base",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35805"
+                                                 },
+                                     "room":  "Davidson Center \u0026 outdoor grounds",
+                                     "online_url":  "",
+                                     "parking_info":  "Free parking on site in the main Space \u0026 Rocket Center lot.",
+                                     "geo":  {
+                                                 "lat":  34.7126,
+                                                 "lng":  -86.655
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Faire Organizer",
+                                         "organization":  "Huntsville Makers Association",
+                                         "email":  "hello@huntsvillemakerfaire.com",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "$10 adults / $5 kids / under 5 free",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/huntsville-maker-faire",
+                                          "rsvp_deadline":  "2025-07-11",
+                                          "capacity":  1000
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Fully accessible venue",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Tickets recommended in advance, limited day-of availability"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://huntsvillemakerfaire.com",
+                                     "social_links":  [
+                                                          "https://www.eventbrite.com/e/huntsville-maker-faire",
+                                                          "https://facebook.com/huntsvillemakerfaire"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "eventbrite",
+                                    "created_at":  "2025-04-01T12:00:00Z",
+                                    "updated_at":  "2025-05-22T12:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-008",
+                       "title":  "Huntsville Symphony Orchestra: Summer Pops",
+                       "description":  {
+                                           "short":  "Outdoor summer pops concert by the Huntsville Symphony Orchestra at Big Spring Park.",
+                                           "long":  "The Huntsville Symphony Orchestra presents its annual Summer Pops concert under the stars at Big Spring International Park. Bring a blanket or lawn chair and enjoy an evening of crowd-pleasing orchestral favorites, film scores, and American classics. Concessions available on site."
+                                       },
+                       "category":  "Arts \u0026 Culture",
+                       "tags":  [
+                                    "symphony",
+                                    "orchestra",
+                                    "music",
+                                    "outdoor",
+                                    "summer",
+                                    "downtown"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-07-19",
+                                    "date_end":  "2025-07-19",
+                                    "time_start":  "19:30",
+                                    "time_end":  "21:30",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Big Spring International Park",
+                                     "address":  {
+                                                     "street":  "200 Church St NW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "Lawn stage",
+                                     "online_url":  "",
+                                     "parking_info":  "Paid parking in downtown decks on Clinton Ave and Holmes Ave.",
+                                     "geo":  {
+                                                 "lat":  34.7298,
+                                                 "lng":  -86.5861
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "HSO Events",
+                                         "organization":  "Huntsville Symphony Orchestra",
+                                         "email":  "info@huntsvillesymphony.org",
+                                         "phone":  "256-539-4818"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$15 general / $25 reserved / children under 12 free",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/hsÐ¾-summer-pops",
+                                          "rsvp_deadline":  "2025-07-18",
+                                          "capacity":  2000
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Wheelchair accessible lawn area available",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Bring lawn chairs or blankets; no outside alcohol"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://huntsvillesymphony.org",
+                                     "social_links":  [
+                                                          "https://facebook.com/HuntsvilleSymphony",
+                                                          "https://www.eventbrite.com/e/hso-summer-pops"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "eventbrite",
+                                    "created_at":  "2025-05-01T08:00:00Z",
+                                    "updated_at":  "2025-05-25T08:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-009",
+                       "title":  "Rocket City Board Game Night",
+                       "description":  {
+                                           "short":  "Weekly drop-in board game night at Phat Sammies in downtown Huntsville.",
+                                           "long":  "Every Thursday night, Phat Sammies hosts an open board game night. Bring your own games or borrow from the house library of 100+ titles. Great for solo players looking for a group, couples, or groups of friends. No signup needed â€” just show up, order some food, and roll the dice."
+                                       },
+                       "category":  "Social \u0026 Games",
+                       "tags":  [
+                                    "board games",
+                                    "weekly",
+                                    "social",
+                                    "indoor",
+                                    "adults",
+                                    "downtown"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-05",
+                                    "date_end":  "2025-06-05",
+                                    "time_start":  "18:00",
+                                    "time_end":  "22:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "weekly"
+                                },
+                       "where":  {
+                                     "venue_name":  "Phat Sammies",
+                                     "address":  {
+                                                     "street":  "2413 Jordan Ln NW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35816"
+                                                 },
+                                     "room":  "Back game room",
+                                     "online_url":  "",
+                                     "parking_info":  "Free parking in the strip mall lot.",
+                                     "geo":  {
+                                                 "lat":  34.7512,
+                                                 "lng":  -86.6255
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Game Night Crew",
+                                         "organization":  "Rocket City Gamers",
+                                         "email":  "",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free (purchase encouraged)",
+                                          "is_free":  true,
+                                          "registration_required":  false,
+                                          "registration_url":  "",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  30
+                                      },
+                       "audience":  {
+                                        "age_group":  "Adults 18+",
+                                        "accessibility":  "Accessible entrance",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "None"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "",
+                                     "social_links":  [
+                                                          "https://reddit.com/r/HuntsvilleAlabama"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "reddit",
+                                    "created_at":  "2025-05-20T18:00:00Z",
+                                    "updated_at":  "2025-05-20T18:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-010",
+                       "title":  "Huntsville Botanical Garden Night Blooms",
+                       "description":  {
+                                           "short":  "Evening garden walk featuring illuminated trails and blooming night flowers at Huntsville Botanical Garden.",
+                                           "long":  "Night Blooms transforms the Huntsville Botanical Garden into a glowing wonderland after dark. Stroll illuminated pathways through seasonal flowers, specialty gardens, and the butterfly house. Live acoustic music, food vendors, and a beer garden round out the experience. A perfect date night or family outing."
+                                       },
+                       "category":  "Nature \u0026 Outdoors",
+                       "tags":  [
+                                    "garden",
+                                    "nature",
+                                    "evening",
+                                    "lights",
+                                    "family",
+                                    "date night"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-07-05",
+                                    "date_end":  "2025-07-05",
+                                    "time_start":  "19:00",
+                                    "time_end":  "22:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "one-time"
+                                },
+                       "where":  {
+                                     "venue_name":  "Huntsville Botanical Garden",
+                                     "address":  {
+                                                     "street":  "4747 Bob Wallace Ave SW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35805"
+                                                 },
+                                     "room":  "",
+                                     "online_url":  "",
+                                     "parking_info":  "Free on-site parking in the main garden lot.",
+                                     "geo":  {
+                                                 "lat":  34.7126,
+                                                 "lng":  -86.6302
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Events Team",
+                                         "organization":  "Huntsville Botanical Garden",
+                                         "email":  "events@hbg.org",
+                                         "phone":  "256-830-4447"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$18 adults / $10 children / members free",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/night-blooms-hbg",
+                                          "rsvp_deadline":  "2025-07-04",
+                                          "capacity":  400
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Paved accessible paths throughout",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Tickets must be purchased in advance"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://hbg.org",
+                                     "social_links":  [
+                                                          "https://facebook.com/HuntsvilleBotanicalGarden",
+                                                          "https://instagram.com/huntsvillebotanicalgarden"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "facebook",
+                                    "created_at":  "2025-05-10T10:00:00Z",
+                                    "updated_at":  "2025-05-28T10:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-011",
+                       "title":  "Tennessee Valley Brew Fest",
+                       "description":  {
+                                           "short":  "Annual craft beer festival showcasing 40+ regional breweries at Campus 805.",
+                                           "long":  "The Tennessee Valley Brew Fest returns to Campus 805 for a full afternoon of craft beer sampling, live music, and local food vendors. Over 40 regional breweries pour their best IPAs, stouts, sours, and seasonal releases. VIP early entry available. Proceeds support the local veterans community."
+                                       },
+                       "category":  "Food \u0026 Drink",
+                       "tags":  [
+                                    "beer",
+                                    "craft beer",
+                                    "festival",
+                                    "adults",
+                                    "live music",
+                                    "campus 805"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-08-02",
+                                    "date_end":  "2025-08-02",
+                                    "time_start":  "14:00",
+                                    "time_end":  "19:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Campus 805",
+                                     "address":  {
+                                                     "street":  "805 Madison St SE",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "Outdoor courtyard",
+                                     "online_url":  "",
+                                     "parking_info":  "Street parking on Madison St; overflow at nearby public lots.",
+                                     "geo":  {
+                                                 "lat":  34.7261,
+                                                 "lng":  -86.578
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Brew Fest Committee",
+                                         "organization":  "Tennessee Valley Craft Beer Alliance",
+                                         "email":  "brewfest@tvcba.org",
+                                         "phone":  "256-555-0231"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$45 general / $65 VIP (early entry + tasting glass)",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/tv-brew-fest",
+                                          "rsvp_deadline":  "2025-08-01",
+                                          "capacity":  800
+                                      },
+                       "audience":  {
+                                        "age_group":  "21+",
+                                        "accessibility":  "Accessible outdoor venue",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Valid ID required. No outside beverages."
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://tvcba.org/brewfest",
+                                     "social_links":  [
+                                                          "https://www.eventbrite.com/e/tv-brew-fest",
+                                                          "https://facebook.com/TVBrewFest"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "eventbrite",
+                                    "created_at":  "2025-04-20T09:00:00Z",
+                                    "updated_at":  "2025-05-30T09:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-012",
+                       "title":  "Huntsville Trail Runners Weekend Group Run",
+                       "description":  {
+                                           "short":  "Weekly group trail run at Monte Sano State Park open to all skill levels.",
+                                           "long":  "Join the Huntsville Trail Runners every Saturday morning for a group run on the trails of Monte Sano State Park. Routes range from 3 to 10 miles depending on group preference. Beginners welcome â€” no one gets left behind. Meet at the trailhead parking lot. Post-run coffee at a nearby cafe."
+                                       },
+                       "category":  "Sports \u0026 Fitness",
+                       "tags":  [
+                                    "trail running",
+                                    "hiking",
+                                    "outdoors",
+                                    "weekly",
+                                    "monte sano",
+                                    "fitness"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-07",
+                                    "date_end":  "2025-06-07",
+                                    "time_start":  "07:00",
+                                    "time_end":  "10:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "weekly"
+                                },
+                       "where":  {
+                                     "venue_name":  "Monte Sano State Park",
+                                     "address":  {
+                                                     "street":  "5105 Nolen Ave SE",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "Trailhead parking lot",
+                                     "online_url":  "",
+                                     "parking_info":  "$5 state park day-use fee per vehicle.",
+                                     "geo":  {
+                                                 "lat":  34.7448,
+                                                 "lng":  -86.5313
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Run Coordinator",
+                                         "organization":  "Huntsville Trail Runners",
+                                         "email":  "runs@huntsvilletrailrunners.com",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free (state park fee applies)",
+                                          "is_free":  true,
+                                          "registration_required":  false,
+                                          "registration_url":  "https://www.meetup.com/huntsville-trail-runners",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  null
+                                      },
+                       "audience":  {
+                                        "age_group":  "Adults",
+                                        "accessibility":  "Trail terrain, not wheelchair accessible",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Athletic wear, trail shoes recommended",
+                                        "requirements":  "Bring water and trail-appropriate footwear"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://www.meetup.com/huntsville-trail-runners",
+                                     "social_links":  [
+                                                          "https://www.meetup.com/huntsville-trail-runners",
+                                                          "https://facebook.com/huntsvilletrailrunners"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "meetup",
+                                    "created_at":  "2025-05-15T07:00:00Z",
+                                    "updated_at":  "2025-05-15T07:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-013",
+                       "title":  "Rocket City Comic Con",
+                       "description":  {
+                                           "short":  "Annual pop culture convention at the Von Braun Center featuring cosplay, vendors, and celebrity guests.",
+                                           "long":  "Rocket City Comic Con takes over the Von Braun Center for a weekend packed with pop culture. Cosplay contests, artist alley, tabletop gaming, panels with celebrity guests from TV and film, and hundreds of vendor tables. Whether you\u0027re into comics, anime, sci-fi, or fantasy â€” there\u0027s something for every fan."
+                                       },
+                       "category":  "Pop Culture \u0026 Entertainment",
+                       "tags":  [
+                                    "comic con",
+                                    "cosplay",
+                                    "pop culture",
+                                    "anime",
+                                    "sci-fi",
+                                    "family",
+                                    "gaming"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-08-16",
+                                    "date_end":  "2025-08-17",
+                                    "time_start":  "10:00",
+                                    "time_end":  "18:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Von Braun Center",
+                                     "address":  {
+                                                     "street":  "700 Monroe St SW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "South Hall \u0026 Exhibit Hall",
+                                     "online_url":  "",
+                                     "parking_info":  "Paid parking in the VBC garage on Monroe St. $10/day.",
+                                     "geo":  {
+                                                 "lat":  34.7285,
+                                                 "lng":  -86.5872
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Con Director",
+                                         "organization":  "Rocket City Fan Events LLC",
+                                         "email":  "info@rocketcitycomiccon.com",
+                                         "phone":  "256-555-0189"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$20/day or $35 weekend pass; children under 10 free",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/rocket-city-comic-con",
+                                          "rsvp_deadline":  "2025-08-15",
+                                          "capacity":  3000
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Fully accessible convention center",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Cosplay welcome",
+                                        "requirements":  "No real weapons; prop weapons must be peace-bonded at entry"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://rocketcitycomiccon.com",
+                                     "social_links":  [
+                                                          "https://facebook.com/RocketCityComicCon",
+                                                          "https://www.eventbrite.com/e/rocket-city-comic-con"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "eventbrite",
+                                    "created_at":  "2025-04-10T10:00:00Z",
+                                    "updated_at":  "2025-06-01T10:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-014",
+                       "title":  "HSV Startup Weekend",
+                       "description":  {
+                                           "short":  "54-hour startup competition where teams build and pitch new business ideas over a weekend.",
+                                           "long":  "Startup Weekend Huntsville challenges entrepreneurs, developers, designers, and business minds to form teams, validate ideas, and build a startup pitch in just 54 hours. Mentors from the Huntsville tech and business community guide teams throughout the weekend. Top teams pitch to a panel of judges on Sunday evening for prizes and recognition."
+                                       },
+                       "category":  "Business \u0026 Entrepreneurship",
+                       "tags":  [
+                                    "startup",
+                                    "entrepreneurship",
+                                    "tech",
+                                    "networking",
+                                    "competition",
+                                    "business"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-09-05",
+                                    "date_end":  "2025-09-07",
+                                    "time_start":  "18:00",
+                                    "time_end":  "21:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Huntsville Hatch",
+                                     "address":  {
+                                                     "street":  "315 Franklin St SE",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35801"
+                                                 },
+                                     "room":  "Full venue",
+                                     "online_url":  "",
+                                     "parking_info":  "Free street parking on Franklin St evenings and weekends.",
+                                     "geo":  {
+                                                 "lat":  34.7261,
+                                                 "lng":  -86.5835
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Event Lead",
+                                         "organization":  "Techstars Startup Weekend Huntsville",
+                                         "email":  "huntsville@startupweekend.org",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "$75 general / $50 student",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.meetup.com/techstars-huntsville",
+                                          "rsvp_deadline":  "2025-09-04",
+                                          "capacity":  120
+                                      },
+                       "audience":  {
+                                        "age_group":  "Adults 18+",
+                                        "accessibility":  "Fully accessible building",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Business casual",
+                                        "requirements":  "Bring your laptop and ideas"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://startupweekend.org/huntsville",
+                                     "social_links":  [
+                                                          "https://www.meetup.com/techstars-huntsville",
+                                                          "https://facebook.com/StartupWeekendHSV"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "meetup",
+                                    "created_at":  "2025-05-25T11:00:00Z",
+                                    "updated_at":  "2025-06-01T11:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-015",
+                       "title":  "Ditto\u0027s Music Hall: Local Band Showcase",
+                       "description":  {
+                                           "short":  "Live showcase featuring four up-and-coming local Huntsville bands at Ditto\u0027s Music Hall.",
+                                           "long":  "Ditto\u0027s Music Hall presents a local band showcase spotlighting the best emerging talent in the Huntsville music scene. Four bands spanning rock, blues, and indie will take the stage for back-to-back sets. $5 cover goes directly to the artists. Drinks and bites available at the bar. Doors open at 7pm."
+                                       },
+                       "category":  "Music \u0026 Nightlife",
+                       "tags":  [
+                                    "live music",
+                                    "local bands",
+                                    "rock",
+                                    "blues",
+                                    "indie",
+                                    "nightlife",
+                                    "ditto\u0027s"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-06-28",
+                                    "date_end":  "2025-06-28",
+                                    "time_start":  "19:00",
+                                    "time_end":  "23:59",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "one-time"
+                                },
+                       "where":  {
+                                     "venue_name":  "Ditto\u0027s Music Hall",
+                                     "address":  {
+                                                     "street":  "2305 Governors Dr SW",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35805"
+                                                 },
+                                     "room":  "Main stage",
+                                     "online_url":  "",
+                                     "parking_info":  "Free parking in the Ditto\u0027s lot.",
+                                     "geo":  {
+                                                 "lat":  34.7073,
+                                                 "lng":  -86.6019
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "Booking Manager",
+                                         "organization":  "Ditto\u0027s Music Hall",
+                                         "email":  "booking@dittosmusichal.com",
+                                         "phone":  "256-555-0174"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$5 cover at the door",
+                                          "is_free":  false,
+                                          "registration_required":  false,
+                                          "registration_url":  "",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  200
+                                      },
+                       "audience":  {
+                                        "age_group":  "21+",
+                                        "accessibility":  "Accessible entrance",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual",
+                                        "requirements":  "Valid ID required"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://dittosmusichal.com",
+                                     "social_links":  [
+                                                          "https://facebook.com/DittosMusicHall",
+                                                          "https://instagram.com/dittosmusichal"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "facebook",
+                                    "created_at":  "2025-06-01T15:00:00Z",
+                                    "updated_at":  "2025-06-01T15:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-016",
+                       "title":  "Huntsville Community Clean-Up Day",
+                       "description":  {
+                                           "short":  "Volunteer neighborhood clean-up event organized through r/HuntsvilleAlabama covering multiple districts.",
+                                           "long":  "Organized by volunteers from the r/HuntsvilleAlabama subreddit, this bi-annual community clean-up brings dozens of residents together to pick up litter, clear overgrown trail edges, and beautify public spaces across multiple neighborhoods. Supplies provided. Come for an hour or the whole day â€” every bit helps."
+                                       },
+                       "category":  "Community \u0026 Volunteer",
+                       "tags":  [
+                                    "volunteer",
+                                    "clean-up",
+                                    "community",
+                                    "outdoors",
+                                    "civic",
+                                    "environment"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-07-26",
+                                    "date_end":  "2025-07-26",
+                                    "time_start":  "08:00",
+                                    "time_end":  "13:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "bi-annual"
+                                },
+                       "where":  {
+                                     "venue_name":  "Multiple Locations",
+                                     "address":  {
+                                                     "street":  "",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  ""
+                                                 },
+                                     "room":  "Meet at Five Points neighborhood park",
+                                     "online_url":  "https://reddit.com/r/HuntsvilleAlabama",
+                                     "parking_info":  "Street parking at designated meet-up locations.",
+                                     "geo":  {
+                                                 "lat":  34.735,
+                                                 "lng":  -86.5835
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "u/RocketCityCleans",
+                                         "organization":  "r/HuntsvilleAlabama community",
+                                         "email":  "",
+                                         "phone":  ""
+                                     },
+                       "attendance":  {
+                                          "cost":  "Free",
+                                          "is_free":  true,
+                                          "registration_required":  false,
+                                          "registration_url":  "https://reddit.com/r/HuntsvilleAlabama",
+                                          "rsvp_deadline":  "",
+                                          "capacity":  null
+                                      },
+                       "audience":  {
+                                        "age_group":  "All ages",
+                                        "accessibility":  "Varies by location",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Wear clothes you don\u0027t mind getting dirty",
+                                        "requirements":  "Gloves and bags provided; bring water"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://reddit.com/r/HuntsvilleAlabama",
+                                     "social_links":  [
+                                                          "https://reddit.com/r/HuntsvilleAlabama"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "reddit",
+                                    "created_at":  "2025-06-05T12:00:00Z",
+                                    "updated_at":  "2025-06-05T12:00:00Z"
+                                }
+                   },
+                   {
+                       "id":  "evt-017",
+                       "title":  "Space Camp Family Space Day",
+                       "description":  {
+                                           "short":  "One-day family experience at the U.S. Space \u0026 Rocket Center with hands-on space science activities.",
+                                           "long":  "Family Space Day at the U.S. Space \u0026 Rocket Center gives families a taste of Space Camp with guided STEM activities, rocket building, astronaut training simulators, and a tour of the Saturn V rocket. Staff-led sessions run throughout the day. Perfect for kids interested in science, technology, and space exploration."
+                                       },
+                       "category":  "Science \u0026 Education",
+                       "tags":  [
+                                    "space",
+                                    "STEM",
+                                    "family",
+                                    "kids",
+                                    "science",
+                                    "space camp",
+                                    "rocket center"
+                                ],
+                       "when":  {
+                                    "date_start":  "2025-07-22",
+                                    "date_end":  "2025-07-22",
+                                    "time_start":  "09:00",
+                                    "time_end":  "16:00",
+                                    "timezone":  "America/Chicago",
+                                    "recurrence":  "one-time"
+                                },
+                       "where":  {
+                                     "venue_name":  "U.S. Space \u0026 Rocket Center",
+                                     "address":  {
+                                                     "street":  "1 Tranquility Base",
+                                                     "city":  "Huntsville",
+                                                     "state":  "AL",
+                                                     "zip":  "35805"
+                                                 },
+                                     "room":  "Davidson Center for Space Exploration",
+                                     "online_url":  "",
+                                     "parking_info":  "Free on-site parking.",
+                                     "geo":  {
+                                                 "lat":  34.7126,
+                                                 "lng":  -86.655
+                                             }
+                                 },
+                       "organizer":  {
+                                         "name":  "USSRC Education Team",
+                                         "organization":  "U.S. Space \u0026 Rocket Center",
+                                         "email":  "education@spacecamp.com",
+                                         "phone":  "256-837-3400"
+                                     },
+                       "attendance":  {
+                                          "cost":  "$35 per person; museum admission included",
+                                          "is_free":  false,
+                                          "registration_required":  true,
+                                          "registration_url":  "https://www.eventbrite.com/e/family-space-day-ussrc",
+                                          "rsvp_deadline":  "2025-07-20",
+                                          "capacity":  150
+                                      },
+                       "audience":  {
+                                        "age_group":  "Families with children 6â€“14",
+                                        "accessibility":  "Fully accessible facility",
+                                        "languages":  [
+                                                          "English"
+                                                      ],
+                                        "dress_code":  "Casual, closed-toe shoes required for simulators",
+                                        "requirements":  "Adults must accompany children under 10"
+                                    },
+                       "media":  {
+                                     "image_url":  "",
+                                     "website_url":  "https://spacecamp.com",
+                                     "social_links":  [
+                                                          "https://facebook.com/spacecamp",
+                                                          "https://www.eventbrite.com/e/family-space-day-ussrc"
+                                                      ]
+                                 },
+                       "meta":  {
+                                    "status":  "scheduled",
+                                    "source":  "eventbrite",
+                                    "created_at":  "2025-05-30T09:00:00Z",
+                                    "updated_at":  "2025-06-02T09:00:00Z"
+                                }
+                   }
+               ]
+}
