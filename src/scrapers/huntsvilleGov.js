@@ -95,6 +95,7 @@ function normalizeICalEvent(ev) {
       room: '',
       online_url: '',
       parking_info: '',
+      geo: { lat: null, lng: null },
     },
     organizer: {
       name: '',
@@ -109,6 +110,7 @@ function normalizeICalEvent(ev) {
       registration_url: '',
       rsvp_deadline: '',
       capacity: null,
+      expected_attendance: null,
     },
     audience: {
       age_group: 'All ages',

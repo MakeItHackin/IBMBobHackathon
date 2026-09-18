@@ -93,6 +93,7 @@ export function normalizeRedditPost(post, subreddit) {
       room: '',
       online_url: '',
       parking_info: '',
+      geo: { lat: null, lng: null },
     },
     organizer: {
       name: post.author || '',
@@ -107,6 +108,7 @@ export function normalizeRedditPost(post, subreddit) {
       registration_url: '',
       rsvp_deadline: '',
       capacity: null,
+      expected_attendance: null,
     },
     audience: {
       age_group: fullText.toLowerCase().includes('21+') ? '21+' : fullText.toLowerCase().includes('all ages') ? 'All ages' : '',
