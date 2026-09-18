@@ -1,21 +1,22 @@
-const CATEGORY_COLORS = {
-  'Market': 'bg-green-100 text-green-800',
-  'Food & Drink': 'bg-orange-100 text-orange-800',
-  'Science & Education': 'bg-blue-100 text-blue-800',
-  'Sports & Fitness': 'bg-red-100 text-red-800',
-  'Technology': 'bg-purple-100 text-purple-800',
-  'Arts & Culture': 'bg-pink-100 text-pink-800',
-  'Technology & DIY': 'bg-violet-100 text-violet-800',
-  'Social & Games': 'bg-yellow-100 text-yellow-800',
-  'Nature & Outdoors': 'bg-teal-100 text-teal-800',
-  'Music & Nightlife': 'bg-rose-100 text-rose-800',
-  'Pop Culture & Entertainment': 'bg-fuchsia-100 text-fuchsia-800',
-  'Business & Entrepreneurship': 'bg-slate-100 text-slate-800',
-  'Community & Volunteer': 'bg-lime-100 text-lime-800',
+const CATEGORY_STYLES = {
+  'Market':                      { background: '#dcfce7', color: '#166534' },
+  'Food & Drink':                { background: '#ffedd5', color: '#9a3412' },
+  'Science & Education':         { background: '#dbeafe', color: '#1e40af' },
+  'Sports & Fitness':            { background: '#fee2e2', color: '#991b1b' },
+  'Technology':                  { background: '#f3e8ff', color: '#6b21a8' },
+  'Arts & Culture':              { background: '#fce7f3', color: '#9d174d' },
+  'Technology & DIY':            { background: '#ede9fe', color: '#5b21b6' },
+  'Social & Games':              { background: '#fef9c3', color: '#713f12' },
+  'Nature & Outdoors':           { background: '#ccfbf1', color: '#134e4a' },
+  'Music & Nightlife':           { background: '#ffe4e6', color: '#9f1239' },
+  'Pop Culture & Entertainment': { background: '#fae8ff', color: '#86198f' },
+  'Business & Entrepreneurship': { background: '#f1f5f9', color: '#1e293b' },
+  'Community & Volunteer':       { background: '#ecfccb', color: '#3f6212' },
+  'Health & Wellness':           { background: '#d1fae5', color: '#065f46' },
 }
 
-function categoryColor(cat) {
-  return CATEGORY_COLORS[cat] || 'bg-gray-100 text-gray-700'
+function categoryStyle(cat) {
+  return CATEGORY_STYLES[cat] || { background: '#f3f4f6', color: '#374151' }
 }
 
 export default function EventCard({ event }) {
@@ -25,7 +26,10 @@ export default function EventCard({ event }) {
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-5 flex flex-col gap-3 hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between gap-2">
         <h2 className="text-base font-semibold text-gray-900 leading-snug">{title}</h2>
-        <span className={`text-xs font-medium px-2 py-0.5 rounded-full shrink-0 ${categoryColor(category)}`}>
+        <span
+          className="text-xs font-medium px-2 py-0.5 rounded-full shrink-0"
+          style={categoryStyle(category)}
+        >
           {category}
         </span>
       </div>
