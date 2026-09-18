@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
 import { useEvents } from '../hooks/useEvents'
 
 // Fix default marker icons broken by Vite bundling
@@ -53,9 +52,9 @@ export default function MapPage() {
     ])
 
   return (
-    <div className="flex flex-col h-[calc(100vh-120px)]">
+    <div style={{ display: 'flex', flexDirection: 'column', height: 'calc(100vh - 120px)' }}>
       {/* Controls bar */}
-      <div className="bg-white border-b border-gray-200 px-4 py-2 flex gap-6 items-center text-sm">
+      <div className="bg-white border-b border-gray-200 px-4 py-2 flex gap-6 items-center text-sm" style={{ flexShrink: 0 }}>
         <span className="font-medium text-gray-700">Map View</span>
         <label className="flex items-center gap-2 cursor-pointer text-gray-600">
           <input
@@ -80,7 +79,7 @@ export default function MapPage() {
       </div>
 
       {/* Map */}
-      <div className="flex-1">
+      <div style={{ flex: 1, minHeight: 0 }}>
         <MapContainer
           center={[34.7304, -86.5861]}
           zoom={12}
